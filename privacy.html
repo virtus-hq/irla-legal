@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IRLA — Privacy Policy</title>
+<style>
+  :root { --bg:#fff; --surface:#fff; --text:#000; --muted:#636363; --faint:#a9a9a9; --border:#000; --accent:#ff6200; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#000; --surface:#090909; --text:#fff; --muted:#a9a9a9; --faint:#636363; --border:#272727; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:2rem 1.25rem 5rem; background:var(--bg); color:var(--text);
+         font:16px/1.65 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  main { max-width:44rem; margin:0 auto; }
+  a { color:var(--accent); }
+  h1 { font-size:2rem; line-height:1.2; margin:0 0 .5rem; letter-spacing:-.02em; }
+  h2 { font-size:1.2rem; margin:2.5rem 0 .75rem; letter-spacing:-.01em; }
+  .lede { color:var(--muted); margin:0 0 .25rem; }
+  .updated { color:var(--faint); font-size:.875rem; margin:0 0 2rem; }
+  table { width:100%; border-collapse:collapse; margin:1rem 0; font-size:.95rem; }
+  th, td { text-align:left; padding:.6rem .5rem; border-bottom:1px solid var(--border); vertical-align:top; }
+  th { font-size:.8rem; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); }
+  .wrap { overflow-x:auto; }
+  .box { border:2px solid var(--border); border-radius:12px; padding:1.25rem; margin:1.5rem 0; background:var(--surface); }
+  code { font-family:ui-monospace, SFMono-Regular, Menlo, monospace; font-size:.9em;
+         background:color-mix(in srgb, var(--text) 8%, transparent); padding:.1em .35em; border-radius:4px; }
+  footer { margin-top:4rem; color:var(--faint); font-size:.875rem; }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Privacy Policy</h1>
+<p class="lede">IRLA — In Real Life Achievements</p>
+<p class="updated">Last updated: 21 August 2026</p>
+
+<p>
+  IRLA lets you set challenges you can count, log your progress, and share that
+  with friends who can vouch for it. This policy explains what the app stores,
+  why, and how to get rid of it.
+</p>
+
+<p>
+  We do not sell your data, we do not show ads, and the app contains no
+  advertising or analytics SDKs.
+</p>
+
+<h2>What we collect</h2>
+
+<div class="wrap">
+<table>
+  <thead>
+    <tr><th>Data</th><th>Why</th><th>Required?</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Email address</td>
+      <td>Identifies your account and is how you sign in.</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td>Stored only as a bcrypt hash. We never store or see the password itself.</td>
+      <td>Yes, unless you sign in with Google or Apple</td>
+    </tr>
+    <tr>
+      <td>Username and display name</td>
+      <td>Shown to other users on your profile, your posts and in search.</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Bio and profile photo</td>
+      <td>Shown on your profile.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Challenges, progress entries and notes</td>
+      <td>The core of the app — what you are tracking and how far along you are.</td>
+      <td>Created by you</td>
+    </tr>
+    <tr>
+      <td>Photos you attach to a progress entry</td>
+      <td>Shown with that entry as evidence of what you did.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Comments and reactions</td>
+      <td>Shown to the people who can see the post.</td>
+      <td>Created by you</td>
+    </tr>
+    <tr>
+      <td>Friends and blocked users</td>
+      <td>Decides whose activity you see and who can see yours.</td>
+      <td>Created by you</td>
+    </tr>
+    <tr>
+      <td>App preferences</td>
+      <td>Language, theme, accent colour and profile visibility.</td>
+      <td>Yes, set by using the app</td>
+    </tr>
+    <tr>
+      <td>Push notification token</td>
+      <td>Delivers notifications to your device. Only if you enable notifications.</td>
+      <td>No</td>
+    </tr>
+    <tr>
+      <td>Linked gaming accounts</td>
+      <td>If you connect Steam, Xbox or PlayStation, we store your public
+          identifier there and the milestones we import.</td>
+      <td>No</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>
+  We do not collect your location, contacts, calendar, microphone, or any
+  advertising identifier.
+</p>
+
+<h2>Camera and photos</h2>
+<p>
+  You can attach a photo to a progress entry, either from your photo library or
+  by taking one. The app asks for camera permission only when you choose to take
+  a photo. Photos from your library go through the system photo picker, which
+  gives the app access only to the specific image you select — never your whole
+  library.
+</p>
+<p>
+  A photo you attach is uploaded to our servers and shown alongside that entry
+  to whoever can see it. Deleting the entry, or your account, deletes the photo.
+</p>
+
+<h2>Who else sees your data</h2>
+
+<p><strong>Other users.</strong> What they can see depends on your profile
+visibility setting (public, friends only, or private) and on whether a given
+challenge is public. Someone you block cannot see your profile, posts, or
+challenges.</p>
+
+<p><strong>Service providers.</strong> We use a small number of third parties to
+run the app:</p>
+
+<div class="wrap">
+<table>
+  <thead>
+    <tr><th>Provider</th><th>What it handles</th><th>When</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Google Firebase Cloud Messaging</td>
+      <td>Delivers push notifications. Receives a device token, not your content.</td>
+      <td>Only if you enable notifications</td>
+    </tr>
+    <tr>
+      <td>Google / Apple sign-in</td>
+      <td>Verifies who you are, and returns your email and name.</td>
+      <td>Only if you choose that sign-in method</td>
+    </tr>
+    <tr>
+      <td>Steam, Xbox (via OpenXBL), PlayStation</td>
+      <td>Reads your public profile and milestones to import them.</td>
+      <td>Only if you link that account</td>
+    </tr>
+    <tr>
+      <td>Our hosting provider</td>
+      <td>Stores the database and uploaded photos.</td>
+      <td>Always</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<p>We do not sell or rent your data, and we do not share it for advertising.</p>
+
+<h2>How long we keep it</h2>
+<p>
+  We keep your data for as long as your account exists. When you delete your
+  account, everything you created is removed — challenges, progress entries,
+  photos, posts, comments, reactions, friendships and linked accounts. This
+  happens immediately and cannot be undone.
+</p>
+
+<h2>Your rights</h2>
+<p>You can, at any time and without contacting us:</p>
+<ul>
+  <li><strong>Export everything.</strong> Settings → your data, gives you a
+      complete JSON copy of everything we hold.</li>
+  <li><strong>Delete your account.</strong> Settings → delete account, or use
+      the <a href="./delete-account.html">account deletion page</a>.</li>
+  <li><strong>Change your visibility.</strong> Settings lets you make your
+      profile public, friends-only, or private.</li>
+</ul>
+<p>
+  If you are in the EU or UK, these cover your GDPR rights to access, erasure
+  and portability. If you would rather we did it for you, email us.
+</p>
+
+<h2>Children</h2>
+<p>
+  IRLA is not directed at children under 13, and we do not knowingly collect
+  data from them. If you believe a child has created an account, email us and
+  we will delete it.
+</p>
+
+<h2>Security</h2>
+<p>
+  Passwords are stored as bcrypt hashes. Traffic between the app and our servers
+  is encrypted in transit. No system is perfectly secure, but we do not store
+  payment details, government identifiers, or precise location — there is very
+  little here that would be valuable to an attacker.
+</p>
+
+<h2>Changes</h2>
+<p>
+  If this policy changes in a way that materially affects you, we will say so in
+  the app before the change takes effect. The date at the top always reflects
+  the current version.
+</p>
+
+<h2>Contact</h2>
+<div class="box">
+  <p style="margin:0">
+    Questions, requests, or anything else:<br>
+    <a href="mailto:REPLACE_WITH_CONTACT_EMAIL">REPLACE_WITH_CONTACT_EMAIL</a>
+  </p>
+</div>
+
+<footer>
+  <p>
+    <a href="./">IRLA</a> ·
+    <a href="./delete-account.html">Delete your account</a>
+  </p>
+</footer>
+
+</main>
+</body>
+</html>

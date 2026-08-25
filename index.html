@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IRLA</title>
+<style>
+  :root { --bg:#fff; --surface:#fff; --text:#000; --muted:#636363; --faint:#a9a9a9; --border:#000; --accent:#ff6200; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#000; --surface:#090909; --text:#fff; --muted:#a9a9a9; --faint:#636363; --border:#272727; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:4rem 1.25rem 5rem; background:var(--bg); color:var(--text);
+         font:16px/1.65 -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  main { max-width:34rem; margin:0 auto; }
+  a { color:var(--accent); }
+  h1 { font-size:2.5rem; line-height:1.05; margin:0 0 .75rem; letter-spacing:-.03em; }
+  .lede { color:var(--muted); font-size:1.05rem; margin:0 0 2.5rem; }
+  nav a {
+    display:block; border:2px solid var(--border); border-radius:12px;
+    padding:1rem 1.15rem; margin-bottom:.75rem; text-decoration:none;
+    color:var(--text); background:var(--surface);
+  }
+  nav a strong { display:block; }
+  nav a span { color:var(--muted); font-size:.925rem; }
+  footer { margin-top:3.5rem; color:var(--faint); font-size:.875rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>IRLA</h1>
+<p class="lede">
+  Set challenges you can count, log your progress, and let your friends vouch
+  for it.
+</p>
+
+<nav>
+  <a href="./privacy.html">
+    <strong>Privacy policy</strong>
+    <span>What the app stores, who sees it, and how long we keep it.</span>
+  </a>
+  <a href="./delete-account.html">
+    <strong>Delete your account</strong>
+    <span>How to remove your account and everything in it.</span>
+  </a>
+</nav>
+
+<footer>
+  <p>REPLACE_WITH_CONTACT_EMAIL</p>
+</footer>
+
+</main>
+</body>
+</html>
